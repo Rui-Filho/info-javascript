@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 03</title>
+</head>
+<body>
+
+    <script>
+
+
+    function Acumulador(valorInicial){
+        this.valor = valorInicial
+
+        this.read = function() {
+
+            this.valor += +prompt("Qual valor adicionar?")                   
+           
+        
+        }
+    }
+
+    let ac1 = new Acumulador(50)
+
+    
+
+    ac1.read()
+
+    ac1.read()
+
+    ac1.read()
+
+    
+
+    alert(ac1.valor)
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        /* Aqui, as funções são declaradas diretamente dentro da ask(...)chamada. Elas não têm nome e, portanto, são chamadas de anônimas . Essas funções não são acessíveis fora do escopo ask(porque não são atribuídas a variáveis), mas é exatamente isso que queremos aqui.
+
+            Esse tipo de código aparece em nossos scripts de forma          muito natural, está em sintonia com o espírito do           JavaScript.  */
+
+        function ask(question, yes, no) {
+            if (confirm(question)) yes()
+            else no();
+            }
+
+            ask(
+            "Do you agree?",
+            function() { alert("You agreed."); },
+            function() { alert("You canceled the execution.") }
+            );
+    </script>
+    
+</body>
+</html>
+

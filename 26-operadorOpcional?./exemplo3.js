@@ -1,0 +1,18 @@
+/* Outras variantes   */
+
+
+let userAdmin = {
+  admin() {
+    console.log("I am admin");
+  }
+};
+
+let userGuest = {}
+
+userAdmin.admin?.() // I am admin
+
+userGuest.admin?.()// nothing happens (no such method)
+
+console.log(userGuest.admin?.true)
+
+console.log(userAdmin.admin?.())

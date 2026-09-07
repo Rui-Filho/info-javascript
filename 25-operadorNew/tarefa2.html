@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função construtora - calculator</title>
+</head>
+<body>
+
+
+    <script>
+
+
+   function Calculator(){
+
+    this.read = function (){
+        this.a = +prompt("a?")
+        this.b = +prompt("b?")
+    }
+
+    this.sum = function (){
+        return this.a + this.b
+    }
+
+    this.mul = function (){
+        return this.a * this.b
+    }
+
+
+
+   }
+
+   let calc1 = new Calculator()
+
+   calc1.read()
+
+   alert(`Soma: ${calc1.sum()}`)
+
+   alert(`Multiplicação: ${calc1.mul()}` )
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

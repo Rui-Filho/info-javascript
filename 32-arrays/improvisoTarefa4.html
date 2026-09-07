@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <script>
+
+        alert(somarNumeros())
+
+        function somarNumeros(){
+
+            let numeros = []
+
+            while(true){
+
+                let valor = prompt("Digite um número, por favor!","0")
+
+                if(valor===""||valor===null||!isFinite(valor)) break;
+
+                numeros.push(+valor)
+            }
+
+            let soma = 0
+
+            for(let numero of numeros){
+                soma += numero
+            }
+
+            return soma
+        }
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
+

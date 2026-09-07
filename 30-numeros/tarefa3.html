@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+       
+
+        function lerNumero() {
+
+            let numero
+
+            do {
+                numero = prompt("Digite um número:", 0)
+            } while ( !isFinite(numero) )
+
+            if (numero === null || numero === '') {
+
+                  return     null
+                
+                }
+
+            return +numero
+
+            }
+
+            alert(`Número: ${lerNumero()}`)
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

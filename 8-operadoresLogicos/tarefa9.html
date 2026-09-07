@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+        let msg = prompt("Quem é você?")
+
+        if(msg=="Admin"){
+            let senha = prompt("Qual a senha?")
+            if(senha=="TheMaster"){
+                alert("Bem-vindo!")
+            } else if(senha===""||senha === null){
+                alert("Cancelado")
+            }
+            
+            else {
+                alert("Senha errada!")
+            }
+
+
+        } else if(msg===""||msg===null){
+            alert("Cancelado")
+        } else {
+            alert("Não conheço você")
+        }
+
+
+
+
+
+
+    </script>
+
+
+
+    
+</body>
+</html>

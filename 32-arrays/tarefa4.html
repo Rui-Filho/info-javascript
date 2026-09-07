@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 4</title>
+</head>
+<body>
+
+
+    <script>
+
+        function sumInput(){
+        
+            let numeros = []
+
+            while(true)
+
+                   {
+                
+                    let valor = prompt("Digite um número:","0")
+
+                    if(valor===""||valor===null||!isFinite(valor)) break
+
+                    numeros.push(+valor)
+                   }                
+                
+
+                    let soma = 0
+
+                    for(let numero of numeros){
+                     soma += numero
+                    }
+
+                    return soma
+                }
+
+                alert(sumInput())
+                             
+
+                       
+    
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
+
+

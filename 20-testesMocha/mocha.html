@@ -1,0 +1,62 @@
+<!-- O fluxo é:
+
+carrega bibliotecas
+→ carrega função
+→ carrega testes
+→ executa testes
+→ mostra resultado na tela -->
+
+<html>
+<head>
+  <!-- Adicione CSS do Mocha para exibir os resultados. Raises x to the power nServe para estilizar os resultados dos testes.-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+
+  <!-- Adicionar código ao framework Mocha  Carrega o framework de testes.É ele que fornece:
+describe
+it
+execução dos testes
+interface visual-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+
+  <script>
+    mocha.setup('bdd'); // Configuração mínima Aqui o Mocha é configurado para usar o estilo BDD.
+  </script>
+
+
+  <!-- add chai Importação do Chai Carrega a biblioteca de asserções.- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+
+  <script>
+
+    /* O Chai tem muita coisa, vamos tornar o assert global. Isso cria: assert.equal() (Asserção) Uma verificação automática ex: assert.equal(2+2,4) */
+
+    let assert = chai.assert;
+  </script>
+
+</head>
+
+<body>
+
+  <script>
+    function pow(x, n) {
+      /*O código da função deve ser escrito, está vazio agora.*/
+    }
+  </script>
+
+  <!-- the script with tests (describe, it...)Arquivo de testes -->
+  <script src="test.js"></script>
+
+  <!-- the element with id="mocha" will contain test results Esse elemento recebe os resultados visuais.-->
+  <div id="mocha"></div>
+
+  <!-- run tests Esse comando inicia todos os testes.
+
+Sem isso nada roda. -->
+  <script>
+    mocha.run();
+  </script>
+</body>
+
+</html>
