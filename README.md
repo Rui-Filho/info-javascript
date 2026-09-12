@@ -18,76 +18,10 @@ Os exemplos são desenvolvidos e testados durante os estudos, buscando não apen
 
 ## 📖 Conteúdo
 
-O estudo aborda diferentes fundamentos da linguagem JavaScript, incluindo:
-
-* Variáveis e tipos de dados
-* Operadores
-* Comparações
-* Estruturas condicionais
-* Operadores lógicos
-* Funções
-* Arrow Functions
-* Objetos
-* Métodos de objetos
-* `this`
-* Operador `new`
-* Optional chaining
-* Symbol
-* Conversão de objetos e tipos primitivos
-* Métodos de primitivas
-* Números
-* Strings
-* Arrays
-* Métodos de arrays
-* Iteráveis e `Array.from()`
-* Testes
-* Boas práticas e estilo de codificação
-
-O conteúdo está organizado em pastas correspondentes aos capítulos estudados.
+O estudo aborda diferentes fundamentos da linguagem JavaScript.
 
 ---
 
-## 📂 Organização
-
-```text
-info-javascript/
-│
-├── 1-intro/
-├── 2-variavel/
-├── 3-interacao/
-├── 4-tipoDeDados/
-├── 5-operadores/
-├── 6-comparacoes/
-├── 7-condicao-IF/
-├── 8-operadoresLogicos/
-├── 9-operadorCoalescenteNuloModerno/
-├── 10-while-for/
-├── 11-loopAninhado/
-├── 12-switch/
-├── 13-funcoes/
-├── 14-expressoesFuncao/
-├── 15-arrowFunction/
-├── 16-revisao/
-├── 18-estiloDeCodificacao/
-├── 19-comentarios/
-├── 20-testesMocha/
-├── 21-objetos/
-├── 22-copiaObject/
-├── 23-garbageColector/
-├── 24-metodosObjetosThis/
-├── 25-operadorNew/
-├── 26-operadorOpcional?/
-├── 27-tipoSimbolo/
-├── 28-conversaoObjetoPrimitivo/
-├── 29-metodosDePrimitivas/
-├── 30-numeros/
-├── 31-string/
-├── 32-arrays/
-├── 33-metodosArrays/
-└── 34-iteraveis/
-```
-
-Cada pasta contém os exemplos e exercícios desenvolvidos durante o respectivo capítulo do estudo.
 
 ---
 
