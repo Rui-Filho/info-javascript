@@ -14,3 +14,8 @@ console.log(exemplo)
 
 console.log(exemplo.has(1))
 
+let objeto = Object.fromEntries(exemplo)//transformando o map em objeto simples
+
+console.log(objeto)
+
+
