@@ -23,7 +23,7 @@ for (let entry of recipeMap) { // the same as of recipeMap.entries()
 
 
 
-/* Possue um método integrado, For OF   */ 
+/* Possue um método integrado, forEach  */ 
 
 recipeMap.forEach((value,key,map)=> {
     console.log(`Este elemento tem chave: ${key} e valor: ${value}.`)
