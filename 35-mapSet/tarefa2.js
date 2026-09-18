@@ -1,6 +1,8 @@
 /* Tarefa 2 
 
-FAZER IMPROVISO DESTA
+FAZER IMPROVISO DESTA;
+
+transformar um dado em uma "chave" que permite agrupá-lo ou identificá-lo;
 
 */
 
