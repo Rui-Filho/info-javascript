@@ -9,7 +9,7 @@ let messages = [
 let weakMap = new WeakMap()
 
 function read(message) {    
-    weakMap.set(message, new Date());
+    weakMap.set(message, new Date())
 }
 
 function isRead(message){

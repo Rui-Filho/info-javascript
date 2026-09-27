@@ -26,6 +26,7 @@ read(messages[2])
 
 
 
-console.log(isRead(messages[0])); // true
-console.log(isRead(messages[1])); // false
-console.log(isRead(messages[2]))
+console.log(isRead(messages[0]))// true
+console.log(isRead(messages[1])) // false
+console.log(isRead(messages[2])) // true
+
