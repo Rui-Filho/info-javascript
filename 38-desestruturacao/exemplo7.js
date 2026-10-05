@@ -1,4 +1,4 @@
-/* Destruturação de objetos Parte 2 */
+/* Desestruturação de objetos Parte 2 */
 
 
 let options = {
