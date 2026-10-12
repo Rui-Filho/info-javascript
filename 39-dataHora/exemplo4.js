@@ -14,3 +14,7 @@ console.log(date)
 /* Diferença do fuso horário entre UTC e local   */
 
 console.log(date.getTimezoneOffset())
+
+/*Obter o dia de semana */
+
+console.log(date.getDay())
