@@ -17,7 +17,7 @@ console.log( JSON.stringify(meetup, ['title', 'participants',]) );
 
 
 
-/*Agora colocamos todos os nomes de propriedades que queremos, incluindo os nomes de propriedades aninhadas, só deixamos de fora a propriedade de faz referência circular*/
+/*Agora colocamos todos os nomes de propriedades que queremos, incluindo os nomes de propriedades aninhadas, só deixamos de fora a propriedade que faz referência circular*/
 
 
 let room1 = {
