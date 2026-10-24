@@ -7,7 +7,8 @@ let meetup = JSON.parse(str, function(key, value) {
   return value;
 });
 
-console.log( meetup.date.getDate() ); // now works!
+console.log( meetup.date.getDate() ) // now works!
+console.log(meetup)
 
 
 /* Funciona também para objetos aninhados */
@@ -20,8 +21,9 @@ let schedule = `{
 }`;
 
 schedule = JSON.parse(schedule, function(key, value) {
-  if (key == 'date') return new Date(value);
-  return value;
+  
+
+  return key == 'date'? new Date(value) : value
 });
 
 console.log( schedule.meetups[1].date.getDate() ); // works!

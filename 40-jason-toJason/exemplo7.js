@@ -17,3 +17,7 @@ let userData = '{ "name": "John", "age": 35, "isAdmin": false, "friends": [0,1,2
 let user = JSON.parse(userData);
 
 console.log( user.friends[1] ); // 1
+
+console.log(userData)
+
+console.log(user)
